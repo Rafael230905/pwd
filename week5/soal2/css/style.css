@@ -1,0 +1,93 @@
+h2 {
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 40px;
+    padding: 0 30rem;
+  }
+
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+
+  fieldset {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+  }
+
+  legend {
+    background-color: #0ac244;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-weight: bold;
+  }
+
+  p {
+    margin-bottom: 15px;
+    font-size: 15px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  input[type="tel"],
+  select {
+    width: -webkit-fill-available;
+    padding: 10px 12px;
+    border: 2px solid #aaa;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: 0.2s ease;
+  }
+
+  input:focus,
+  select:focus {
+    border-color: #0ac22f;
+    outline: none;
+  }
+
+  input[type="radio"] {
+    margin-right: 6px;
+  }
+
+  button,
+  input[type="submit"] {
+    display: block;
+    width: 100%;
+    background-color: #0a66c2;
+    color: white;
+    border: none;
+    padding: 10px 0;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s ease;
+  }
+
+  button:hover,
+  input[type="submit"]:hover {
+    background-color: #094b8a;
+  }
